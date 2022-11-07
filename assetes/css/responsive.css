@@ -1,0 +1,31 @@
+/* Small Device */
+@media screen and (min-width:100px) and (max-width:575px) {
+    .home-center h1{
+        margin-top: 100px!important;
+        line-height: 3;
+        font-size: 35px!important;
+    }
+    .home-center p{
+        font-size: 10px;
+        color: white;
+        display: none;  
+    }
+    .home-btn .btn-shop{
+        font-size: 15px!important;
+        padding: 5px 10px!important;
+    }
+    .home-btn .btn-member{
+       font-size: 15px!important;
+        padding: 5px 10px!important;
+    }
+    .product-text{
+        display: none;
+    }
+    .Address{
+        margin-top: 30px;
+    }
+}
+/*Medum Device */
+@media screen and(min-width:576px) and(max-width:776px) {
+    
+}

@@ -1,0 +1,210 @@
+html{
+    scroll-behavior: smooth;
+}
+.font-bold{
+    font-weight: bold;
+}
+.navbar-brand img{
+    height: 50px;
+}
+.td-none{
+    text-decoration: none;
+}
+.nav-link:hover{
+    border-radius: 5px;
+    background-color:#0390fc;
+}
+/* banner */
+#home{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/header.jpg);
+    /* background-image: url(../img/shanta.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 90vh;
+}
+.home-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.home-center h1{
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: bold;
+}
+.home-center p{
+    color: aqua;
+    font-size: 20px;
+    font-weight: 500;
+}
+.home-btn .btn-shop{
+    border: 2px solid white;
+    color: rgb(243, 238, 238);
+    font-size: 20px;
+    padding: 5px 15px;
+}
+.home-btn .btn-shop:hover{
+    color: black;
+    background-color: #64f5eb;
+}
+.home-btn .btn-member{
+    border: 2px solid white;
+    color: rgb(243, 238, 238);
+    font-size: 20px;
+    padding: 5px 15px;
+}
+.home-btn .btn-member:hover{
+    color: black;
+    background-color: #64f5eb;
+}
+/*products section*/
+.hover-img{
+    overflow: hidden;
+}
+.hover-img img{
+    transition: 0.75s all;
+}
+.hover-img:hover img{
+    transform: scale(
+        1.2
+    );
+}
+.btn-card {
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid rgb(5, 5, 5);
+    background-color:white;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px 15px;
+    transition: .4s all;
+}
+.btn-card:hover{
+    border: 1px solid #0390fc;;
+    background-color:#0390fc;
+    color: white;
+}
+.btn-view{
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid rgb(5, 5, 5);
+    background-color:white;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px 15px;
+    transition: .4s all;
+}
+.btn-view:hover{
+    border: 1px solid #0390fc;;
+    background-color:#0390fc;
+    color: white;
+}
+.carousel-inner{
+    text-align: center;
+}
+.carousel-item img{
+    border-radius: 50%;
+    width: 150px;
+ height: 150px;
+    
+}
+.text-img img{
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+}
+
+/* sign in section */
+.sign img{
+    width: 100%;
+    height: 100%;
+}
+.contact-banner{
+    border: 1px solid red;
+}
+
+/* Contact section start */
+.address-area h4{
+    color: #333;
+    font-weight: 600;
+}
+.address-area a{
+    color: #666;
+}
+.address-area i{
+    color: #30C39E;
+}
+.address-area iframe{
+    border: 7px solid #d4d4d4;
+    width: 100%;
+    min-height: 200px;
+}
+.contact-form i{
+    color: #30C39E;
+}
+.contact-form .btn-primary {
+    color: #fff;
+    background-color: #0A8EA0;
+    border-color: #0A8EA0;
+    border: 2px solid;
+}
+.contact-form .btn-primary:hover {
+    color: #666;
+    background-color: #fff;
+    border-color: #666;
+}
+/* Contact section end */
+
+/* footer */
+.bg{
+    background-color: #64f5eb;
+}
+.icon{
+    padding: 15px;
+
+}
+.icon i{
+    padding: 7px 10px;
+    font-size: 20px;
+    display: inline;
+    color: rgb(6, 2, 2);
+    border: 1px solid rgb(10, 9, 9);
+    transition: 0.4s all;
+}
+.icon i:hover{
+    color: white;
+    background: black;
+}
+.icon a{
+    text-decoration: none;
+}
+.icon-text{
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+}
+.email-form {
+  
+    background: transparent;
+
+}
+#email{
+    background: transparent;
+    border: 1px solid white;
+    color: black;
+    outline: none;
+}
+#email::placeholder{
+    color: black;
+    margin-left: 10px;
+}
+.fa-solid {
+    margin: 10px;
+    font-size: 30px;
+    color: #1cd1ed;
+}
